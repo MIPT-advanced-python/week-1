@@ -4,7 +4,7 @@ from pathlib import Path
 from problem3.solutions import task1, task2, task3
 
 
-basedir = Path(__file__).parent.parent/'tests'/'arrays'
+basedir = Path(__file__).parent.parent/'tests'/'fixtures'/'week1'/'arrays'
 
 
 @pytest.mark.parametrize('array, func', [
