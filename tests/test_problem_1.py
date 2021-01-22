@@ -65,7 +65,7 @@ def test_task_7(uses_loop):
 
 
 def test_task_9(uses_loop):
-    assert not uses_loop(solutions.task8)
+    assert not uses_loop(solutions.task9)
     np.random.seed(0)
     expected, actual = solutions.task9()
     assert isinstance(expected, np.ndarray)
