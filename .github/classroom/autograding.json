@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "problem 1 task 1",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_1_2_3[task1]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "problem 1 task 2",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_1_2_3[task2]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "problem 1 task 3",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_1_2_3[task3]\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "problem 1 task 4",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_4\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "problem 1 task 5",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_5\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "p1 task 6",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_6\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "p1 task 7",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_7\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "p1 task 9",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_9\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "p1 task 10",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_10\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "p1 task 11",
+      "setup": "sudo pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_1.py -k \"test_task_11\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Problem 2",
+      "setup": "sudo -H pip3 install -r requirements.txt; git pull",
+      "run": "python3 -m pytest tests/test_problem_2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Problem 3 task 1",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_2.py -k \"task1\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Problem 3 task 2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "python3 -m pytest tests/test_problem_2.py -k \"task2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Problem 3 task 3",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "python3 -m pytest tests/test_problem_2.py -k \"task3\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
