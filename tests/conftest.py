@@ -17,8 +17,8 @@ def uses_loop():
 
 @pytest.fixture(scope='session', params=[1, 2])
 def image_fixture(request):
-    prefix = Path(__file__).parent.parent/'tests'/'fixtures'/'week1'
+    prefix = Path(__file__).parent.parent/'tests'
     path = prefix/'images'/f'{request.param}.png'
-    expected = np.load(prefix/'arrays'/f'{request.param}.npy')
+    expected = np.load(prefix/'arrays'/f'{request.param}.npz')['arr_0']
     yield path, expected
 

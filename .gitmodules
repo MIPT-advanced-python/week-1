@@ -1,3 +1,0 @@
-[submodule "tests/fixtures"]
-	path = tests/fixtures
-	url = git@github.com:MIPT-department-of-informatics/fixtures.git
